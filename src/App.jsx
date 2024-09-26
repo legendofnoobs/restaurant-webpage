@@ -19,7 +19,7 @@ function App() {
       <section className=" min-h-screen p-24 pb-0 flex justify-center items-center max-[634px]:px-10" id="Menu">
         <MenuSection/>
       </section>
-      <section className=" min-h-screen p-24 pb-0 flex justify-center items-center max-[634px]:px-10 pb-24" id="Contact">
+      <section className=" min-h-screen p-24 flex justify-center items-center max-[634px]:px-10 pb-24" id="Contact">
         <Contact/>
       </section>
     </div>

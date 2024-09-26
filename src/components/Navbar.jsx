@@ -10,14 +10,14 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="flex justify-between items-center py-4 text-xl text-white z-10">
+		<nav className="flex justify-between items-center py-4 text-xl text-white z-10 bg-transparent">
 			<div className="flex items-center gap-x-4 text-3xl">
 				<img src={logo} alt="Logo" className="w-16 rounded-lg" />
 				<h1>Grill & Go</h1>
 			</div>
 			<ul
 				ref={navRef}
-				className={`flex justify-between items-center gap-x-4 max-[1039px]:absolute max-[1039px]:flex-col max-[1039px]:w-screen max-[1039px]:top-24 max-[1039px]:bg-slate-950 max-[1039px]:gap-y-10 transition-all duration-300 ${
+				className={`flex justify-between items-center gap-x-4 max-[1039px]:absolute max-[1039px]:flex-col max-[1039px]:w-screen max-[1039px]:top-24 max-[1039px]:bg-slate-900 max-[1039px]:h-screen max-[1039px]:justify-start max-[1039px]:backdrop-blur-lg max-[1039px]:gap-y-10 transition-all duration-300 ${
 					isNavOpen ? "max-[1039px]:right-0" : "max-[1039px]:right-full"}`}
 				id="nav"
 			>
